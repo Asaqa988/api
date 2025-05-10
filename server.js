@@ -21,12 +21,17 @@ const countriesWithUniversities = JSON.parse(
   fs.readFileSync(path.join(__dirname, "countries_with_universities_cleaned.json"), "utf-8")
 );
 
+// ✅ Load specializations
+const specializations = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "all_specializations.json"), "utf-8")
+);
+
 // 🔍 Job titles search
 app.get("/api/job-titles", (req, res) => {
   const query = req.query.q?.toLowerCase() || "";
   const matches = Object.keys(jobTitles)
     .filter((title) => title.toLowerCase().includes(query))
-    .slice(0, 15);
+    .slice(0, 100);
   res.json(matches);
 });
 
@@ -37,7 +42,7 @@ app.get("/api/skills", (req, res) => {
 
   const matches = skillList
     .filter((skill) => skill.toLowerCase().includes(query))
-    .slice(0, 15);
+    .slice(0, 100);
 
   res.json(matches);
 });
@@ -60,14 +65,12 @@ app.get("/api/universities", (req, res) => {
   const countryCode = req.query.country?.toUpperCase();
   const query = req.query.q?.toLowerCase();
 
-  // Error if no filter provided
   if (!countryCode && !query) {
     return res.status(400).json({
       error: "Please provide a 'country' (ISO code) or a 'q' parameter.",
     });
   }
 
-  // Filter by country (with optional search query)
   if (countryCode) {
     const country = countriesWithUniversities.find((c) => c.code === countryCode);
 
@@ -78,17 +81,15 @@ app.get("/api/universities", (req, res) => {
     }
 
     let universities = Object.keys(country.data || {});
-
     if (query) {
       universities = universities
         .filter((u) => u.toLowerCase().includes(query))
-        .slice(0, 15);
+        .slice(0, 100);
     }
 
     return res.json(universities);
   }
 
-  // Global query if no country specified
   if (query) {
     const allUniversities = countriesWithUniversities.flatMap((country) =>
       Object.keys(country.data || {}).filter((u) =>
@@ -98,6 +99,18 @@ app.get("/api/universities", (req, res) => {
     const unique = [...new Set(allUniversities)].slice(0, 15);
     return res.json(unique);
   }
+});
+
+// ✅ Specializations endpoint
+app.get("/api/specializations", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const list = specializations.specializations || [];
+
+  const results = list
+    .filter((item) => item.toLowerCase().includes(query))
+    .slice(0, 100);
+
+  res.json(results);
 });
 
 // Start server
