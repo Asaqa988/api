@@ -31,7 +31,7 @@ app.get("/api/job-titles", (req, res) => {
   const query = req.query.q?.toLowerCase() || "";
   const matches = Object.keys(jobTitles)
     .filter((title) => title.toLowerCase().includes(query))
-    .slice(0, 100);
+    .slice(0, 1000);
   res.json(matches);
 });
 
@@ -42,7 +42,7 @@ app.get("/api/skills", (req, res) => {
 
   const matches = skillList
     .filter((skill) => skill.toLowerCase().includes(query))
-    .slice(0, 100);
+    .slice(0, 1000);
 
   res.json(matches);
 });
@@ -84,7 +84,7 @@ app.get("/api/universities", (req, res) => {
     if (query) {
       universities = universities
         .filter((u) => u.toLowerCase().includes(query))
-        .slice(0, 100);
+        .slice(0, 1000);
     }
 
     return res.json(universities);
@@ -108,7 +108,7 @@ app.get("/api/specializations", (req, res) => {
 
   const results = list
     .filter((item) => item.toLowerCase().includes(query))
-    .slice(0, 100);
+    .slice(0, 1000);
 
   res.json(results);
 });
