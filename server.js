@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json()); // Middleware to parse JSON
 
 // ✅ HARDCODE YOUR OPENAI KEY HERE (safe only for local development)
-const OPENAI_API_KEY = "REMOVED_SECRET";
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY ;
 
 // Load JSON data files
 const jobTitles = JSON.parse(
