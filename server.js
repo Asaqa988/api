@@ -15,6 +15,10 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY ;
 const jobTitles = JSON.parse(
   fs.readFileSync(path.join(__dirname, "job-titles.json"), "utf-8")
 );
+
+const jobTitlesAr = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "job-titles-arabic.json"), "utf-8")
+);
 const skills = JSON.parse(
   fs.readFileSync(path.join(__dirname, "skills.json"), "utf-8")
 );
@@ -29,6 +33,14 @@ const specializations = JSON.parse(
 app.get("/api/job-titles", (req, res) => {
   const query = req.query.q?.toLowerCase() || "";
   const matches = Object.keys(jobTitles)
+    .filter((title) => title.toLowerCase().includes(query))
+    .slice(0, 1000);
+  res.json(matches);
+});
+
+app.get("/api/job-titlesar", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const matches = Object.values(jobTitlesAr)
     .filter((title) => title.toLowerCase().includes(query))
     .slice(0, 1000);
   res.json(matches);
