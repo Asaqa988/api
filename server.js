@@ -40,9 +40,12 @@ app.get("/api/job-titles", (req, res) => {
 
 app.get("/api/job-titlesar", (req, res) => {
   const query = req.query.q?.toLowerCase() || "";
+
   const matches = Object.values(jobTitlesAr)
+    .map((title) => title.trim())
     .filter((title) => title.toLowerCase().includes(query))
     .slice(0, 1000);
+
   res.json(matches);
 });
 
