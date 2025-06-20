@@ -127,6 +127,61 @@ app.get("/api/specializations", (req, res) => {
   res.json(results);
 });
 
+// 🌍 Arabic Countries search
+app.get("/api/countriesar", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const matches = arabicCountriesWithUniversities
+    .filter((country) => country.name.toLowerCase().includes(query))
+    .map((country) => ({
+      code: country.code.toUpperCase(),
+      name: country.name,
+    }));
+
+  res.json(matches);
+});
+
+// 🎓 Arabic Universities search
+app.get("/api/universitiesar", (req, res) => {
+  const countryCode = req.query.country?.toUpperCase();
+  const query = req.query.q?.toLowerCase();
+
+  if (!countryCode && !query) {
+    return res.status(400).json({
+      error: "يرجى تزويدنا بمعرّف الدولة (country) أو اسم الجامعة (q).",
+    });
+  }
+
+  if (countryCode) {
+    const country = arabicCountriesWithUniversities.find((c) => c.code === countryCode);
+
+    if (!country || !country.data) {
+      return res
+        .status(404)
+        .json({ error: "لم يتم العثور على الدولة أو لا تحتوي على جامعات." });
+    }
+
+    let universities = Object.keys(country.data || {});
+    if (query) {
+      universities = universities
+        .filter((u) => u.toLowerCase().includes(query))
+        .slice(0, 1000);
+    }
+
+    return res.json(universities);
+  }
+
+  if (query) {
+    const allUniversities = arabicCountriesWithUniversities.flatMap((country) =>
+      Object.keys(country.data || {}).filter((u) =>
+        u.toLowerCase().includes(query)
+      )
+    );
+    const unique = [...new Set(allUniversities)].slice(0, 15);
+    return res.json(unique);
+  }
+});
+
+
 // 🌍 Translate resume using OpenAI
 app.post("/api/translate-resume", async (req, res) => {
   const { resume, targetLanguage } = req.body;
