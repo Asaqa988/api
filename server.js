@@ -46,6 +46,10 @@ const arabicLanguages = JSON.parse(
   fs.readFileSync(path.join(__dirname, "alllanguages-ar.json"), "utf-8")
 );
 
+// 🌐 All Languages - Arabic translations
+app.get("/api/languages-ar", (req, res) => {
+  res.json(allLanguagesAr);
+});
 
 
 // 🔍 Job titles search
