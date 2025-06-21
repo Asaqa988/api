@@ -6,28 +6,47 @@ const fetch = require("node-fetch");
 
 const app = express();
 app.use(cors());
-app.use(express.json()); // Middleware to parse JSON
+app.use(express.json());
 
-// ✅ HARDCODE YOUR OPENAI KEY HERE (safe only for local development)
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY ;
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 // Load JSON data files
 const jobTitles = JSON.parse(
   fs.readFileSync(path.join(__dirname, "job-titles.json"), "utf-8")
 );
-
 const jobTitlesAr = JSON.parse(
   fs.readFileSync(path.join(__dirname, "job-titles-arabic.json"), "utf-8")
 );
 const skills = JSON.parse(
   fs.readFileSync(path.join(__dirname, "skills.json"), "utf-8")
 );
+const skillsAr = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "skills-Arabic.json"), "utf-8")
+);
 const countriesWithUniversities = JSON.parse(
   fs.readFileSync(path.join(__dirname, "countries_with_universities_cleaned.json"), "utf-8")
+);
+const arabicCountriesWithUniversities = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "countries_with_universities_cleaned - arabic.json"), "utf-8")
 );
 const specializations = JSON.parse(
   fs.readFileSync(path.join(__dirname, "all_specializations.json"), "utf-8")
 );
+const arabicSpecializations = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "all_specializations-ar.json"), "utf-8")
+);
+const hobbiesAndInterests = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "hobbies_and_interests.json"), "utf-8")
+);
+const hobbiesAndInterestsAr = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "hobbies_and_interests-ar.json"), "utf-8")
+);
+
+const arabicLanguages = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "alllanguages-ar.json"), "utf-8")
+);
+
+
 
 // 🔍 Job titles search
 app.get("/api/job-titles", (req, res) => {
@@ -40,31 +59,34 @@ app.get("/api/job-titles", (req, res) => {
 
 app.get("/api/job-titlesar", (req, res) => {
   const query = req.query.q?.toLowerCase() || "";
-
   const matches = Object.values(jobTitlesAr)
     .map((title) => title.trim())
     .filter((title) => title.toLowerCase().includes(query))
     .slice(0, 1000);
-
   res.json(matches);
 });
 
-// 🔍 Skills search
-app.get("/api/skills", (req, res) => {
+// 🧩 Hobbies & Interests - English
+app.get("/api/hobbies", (req, res) => {
   const query = req.query.q?.toLowerCase() || "";
-  const skillList = Array.isArray(skills) ? skills : Object.keys(skills);
-
-  const matches = skillList
-    .filter((skill) => skill.toLowerCase().includes(query))
+  const results = hobbiesAndInterests
+    .filter((hobby) => hobby.toLowerCase().includes(query))
     .slice(0, 1000);
-
-  res.json(matches);
+  res.json(results);
 });
 
-// 🌍 Countries search
-app.get("/api/countries", (req, res) => {
+// 🧩 Hobbies & Interests - Arabic
+app.get("/api/hobbiesar", (req, res) => {
   const query = req.query.q?.toLowerCase() || "";
-  const matches = countriesWithUniversities
+  const results = hobbiesAndInterestsAr
+    .filter((hobby) => hobby.toLowerCase().includes(query))
+    .slice(0, 1000);
+  res.json(results);
+});
+
+app.get("/api/countriesar", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const matches = arabicCountriesWithUniversities
     .filter((country) => country.name.toLowerCase().includes(query))
     .map((country) => ({
       code: country.code.toUpperCase(),
@@ -74,7 +96,42 @@ app.get("/api/countries", (req, res) => {
   res.json(matches);
 });
 
-// 🎓 Universities search
+app.get("/api/languagesar", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+
+  const matches = arabicLanguages
+    .map((lang) => lang.trim())
+    .filter((lang) => lang.toLowerCase().includes(query))
+    .slice(0, 1000);
+
+  res.json(matches);
+});
+
+
+
+// 🔍 Skills search
+app.get("/api/skills", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const skillList = Array.isArray(skills) ? skills : Object.keys(skills);
+  const matches = skillList
+    .filter((skill) => skill.toLowerCase().includes(query))
+    .slice(0, 1000);
+  res.json(matches);
+});
+
+// 🌍 Countries search (English)
+app.get("/api/countries", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const matches = countriesWithUniversities
+    .filter((country) => country.name.toLowerCase().includes(query))
+    .map((country) => ({
+      code: country.code.toUpperCase(),
+      name: country.name,
+    }));
+  res.json(matches);
+});
+
+// 🎓 Universities search (English)
 app.get("/api/universities", (req, res) => {
   const countryCode = req.query.country?.toUpperCase();
   const query = req.query.q?.toLowerCase();
@@ -87,11 +144,8 @@ app.get("/api/universities", (req, res) => {
 
   if (countryCode) {
     const country = countriesWithUniversities.find((c) => c.code === countryCode);
-
     if (!country || !country.data) {
-      return res
-        .status(404)
-        .json({ error: "Country not found or has no universities." });
+      return res.status(404).json({ error: "Country not found or has no universities." });
     }
 
     let universities = Object.keys(country.data || {});
@@ -119,15 +173,22 @@ app.get("/api/universities", (req, res) => {
 app.get("/api/specializations", (req, res) => {
   const query = req.query.q?.toLowerCase() || "";
   const list = specializations.specializations || [];
-
   const results = list
     .filter((item) => item.toLowerCase().includes(query))
     .slice(0, 1000);
-
   res.json(results);
 });
 
-// 🌍 Arabic Countries search
+app.get("/api/specializations-ar", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const list = arabicSpecializations.specializations || [];
+  const results = list
+    .filter((item) => item.toLowerCase().includes(query))
+    .slice(0, 1000);
+  res.json(results);
+});
+
+// 🌍 Countries search (Arabic)
 app.get("/api/countriesar", (req, res) => {
   const query = req.query.q?.toLowerCase() || "";
   const matches = arabicCountriesWithUniversities
@@ -136,11 +197,10 @@ app.get("/api/countriesar", (req, res) => {
       code: country.code.toUpperCase(),
       name: country.name,
     }));
-
   res.json(matches);
 });
 
-// 🎓 Arabic Universities search
+// 🎓 Universities search (Arabic)
 app.get("/api/universitiesar", (req, res) => {
   const countryCode = req.query.country?.toUpperCase();
   const query = req.query.q?.toLowerCase();
@@ -153,11 +213,8 @@ app.get("/api/universitiesar", (req, res) => {
 
   if (countryCode) {
     const country = arabicCountriesWithUniversities.find((c) => c.code === countryCode);
-
     if (!country || !country.data) {
-      return res
-        .status(404)
-        .json({ error: "لم يتم العثور على الدولة أو لا تحتوي على جامعات." });
+      return res.status(404).json({ error: "لم يتم العثور على الدولة أو لا تحتوي على جامعات." });
     }
 
     let universities = Object.keys(country.data || {});
@@ -181,6 +238,33 @@ app.get("/api/universitiesar", (req, res) => {
   }
 });
 
+
+// Arabic Skills Search
+app.get("/api/skillsar", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const matches = skillsAr
+    .filter((skill) => skill.toLowerCase().includes(query))
+    .slice(0, 1000);
+
+  res.json(matches);
+});
+
+app.get("/api/hobbies", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const matches = hobbies.filter((hobby) =>
+    hobby.toLowerCase().includes(query)
+  );
+  res.json(matches.slice(0, 1000));
+});
+
+// Hobbies & Interests (Arabic)
+app.get("/api/hobbies-ar", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const matches = hobbiesAr.filter((hobby) =>
+    hobby.toLowerCase().includes(query)
+  );
+  res.json(matches.slice(0, 1000));
+});
 
 // 🌍 Translate resume using OpenAI
 app.post("/api/translate-resume", async (req, res) => {
