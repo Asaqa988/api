@@ -221,7 +221,31 @@ app.get('/api/languagesar', (req, res) => {
   res.json(results.slice(0, 1000));
 });
 
+// Load organization + certifications JSON
+const certificationsData = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "organization_certifications.json"), "utf8")
+);
 
+// ✅ Endpoint to get all organization names
+app.get("/api/organizations", (req, res) => {
+  const names = certificationsData.map((org) => org.organization_name);
+  res.json(names);
+});
+
+// ✅ Endpoint to get certifications by organization name
+app.get("/api/certifications", (req, res) => {
+  const orgName = req.query.organization_name;
+  if (!orgName) {
+    return res.status(400).json({ error: "organization_name is required" });
+  }
+
+  const org = certificationsData.find((item) => item.organization_name === orgName);
+  if (!org) {
+    return res.status(404).json({ error: "Organization not found" });
+  }
+
+  res.json(org.name);
+});
 
 
 // ✅ Start server

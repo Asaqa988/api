@@ -1,0 +1,1922 @@
+[
+  {
+    "organization_name": "(ISC)² (International Information System Security Certification Consortium)",
+    "name": [
+      "CISSP (Certified Information Systems Security Professional)",
+      "SSCP (Systems Security Certified Practitioner)",
+      "CCSP (Certified Cloud Security Professional)",
+      "CSSLP (Certified Secure Software Lifecycle Professional)",
+      "CAP (Certified Authorization Professional)",
+      "HCISPP (HealthCare Information Security and Privacy Practitioner)"
+    ]
+  },
+  {
+    "organization_name": "ABB",
+    "name": [
+      "ABB Certified Robotics Programmer",
+      "ABB Certified Drive Specialist",
+      "ABB Certified Control Systems Engineer"
+    ]
+  },
+  {
+    "organization_name": "ACTFL (American Council on the Teaching of Foreign Languages)",
+    "name": [
+      "OPI (Oral Proficiency Interview)",
+      "OPIc (Oral Proficiency Interview - computer)",
+      "WPT (Writing Proficiency Test)",
+      "LPT (Listening Proficiency Test)",
+      "RPT (Reading Proficiency Test)",
+      "AAPPL (ACTFL Assessment of Performance toward Proficiency in Languages)",
+      "ALIRA (ACTFL Latin Interpretive Reading Assessment)",
+      "ACTFL Proficiency Guidelines Certification",
+      "ACTFL ILR Scale Certification",
+      "ACTFL Certification for Teaching English to Speakers of Other Languages (TESOL)"
+    ]
+  },
+  {
+    "organization_name": "ASME (American Society of Mechanical Engineers)",
+    "name": [
+      "ASME GDTP (Geometric Dimensioning and Tolerancing Professional)",
+      "ASME Certified Pressure Vessel Inspector"
+    ]
+  },
+  {
+    "organization_name": "ASQ (American Society for Quality)",
+    "name": [
+      "CQE (Certified Quality Engineer)",
+      "CRE (Certified Reliability Engineer)"
+    ]
+  },
+  {
+    "organization_name": "AVEVA (Additional)",
+    "name": [
+      "AVEVA Certified Developer for MES (Manufacturing Execution System)",
+      "AVEVA Certified Developer for SCADA (Supervisory Control and Data Acquisition)",
+      "AVEVA Certified System Engineer"
+    ]
+  },
+  {
+    "organization_name": "AVEVA (formerly Wonderware)",
+    "name": [
+      "AVEVA Certified Developer",
+      "AVEVA Certified Application Engineer",
+      "AVEVA Certified System Integrator"
+    ]
+  },
+  {
+    "organization_name": "AWS (Amazon Web Services)",
+    "name": [
+      "AWS Certified Solutions Architect – Associate",
+      "AWS Certified Solutions Architect – Professional",
+      "AWS Certified Developer – Associate",
+      "AWS Certified SysOps Administrator – Associate",
+      "AWS Certified DevOps Engineer – Professional",
+      "AWS Certified Security – Specialty",
+      "AWS Certified Big Data – Specialty",
+      "AWS Certified Solutions Architect – Associate",
+      "AWS Certified Solutions Architect – Professional",
+      "AWS Certified DevOps Engineer – Professional",
+      "AWS Certified Cloud Practitioner",
+      "AWS Certified Solutions Architect – Associate",
+      "AWS Certified Developer – Associate",
+      "AWS Certified SysOps Administrator – Associate",
+      "AWS Certified DevOps Engineer – Professional",
+      "AWS Certified Solutions Architect – Professional",
+      "AWS Certified Security – Specialty",
+      "AWS Certified Advanced Networking – Specialty",
+      "AWS Certified Machine Learning – Specialty",
+      "AWS Certified Database – Specialty"
+    ]
+  },
+  {
+    "organization_name": "AWS (American Welding Society)",
+    "name": [
+      "CWI (Certified Welding Inspector)",
+      "CWEng (Certified Welding Engineer)",
+      "CWE (Certified Welding Educator)"
+    ]
+  },
+  {
+    "organization_name": "AWS (American Welding Society) (Additional)",
+    "name": [
+      "AWS Certified Radiographic Interpreter (CRI)",
+      "AWS Certified Welding Sales Representative (CWSR)",
+      "AWS Senior Certified Welding Inspector (SCWI)"
+    ]
+  },
+  {
+    "organization_name": "AXELOS",
+    "name": [
+      "PRINCE2 Foundation",
+      "PRINCE2 Practitioner",
+      "PRINCE2 Agile Foundation",
+      "PRINCE2 Agile Practitioner"
+    ]
+  },
+  {
+    "organization_name": "Accreditation Council for Pharmacy Education (ACPE)",
+    "name": [
+      "Continuing Pharmacy Education (CPE) Accreditation",
+      "Joint Accreditation for Interprofessional Continuing Education",
+      "CPD (Continuing Professional Development) Certification",
+      "ACPE Provider Accreditation",
+      "ACPE Continuing Education Administrator",
+      "ACPE Accredited Program Director",
+      "ACPE Preceptor Training Certification",
+      "ACPE Residency Program Accreditation",
+      "ACPE Fellowship Program Accreditation",
+      "ACPE Certificate Program Accreditation"
+    ]
+  },
+  {
+    "organization_name": "Adobe",
+    "name": [
+      "Adobe Certified Expert (ACE)",
+      "Adobe Certified Master (ACM)",
+      "Adobe Certified Professional (ACP)",
+      "Adobe Certified Associate (ACA)",
+      "Adobe Certified Associate (ACA)",
+      "Adobe Certified Professional (ACP)",
+      "Adobe Education Trainer",
+      "Adobe Certified Expert (ACE)",
+      "Adobe Captivate Specialist",
+      "Adobe Creative Educator Level 1",
+      "Adobe Creative Educator Level 2",
+      "Adobe Design Master",
+      "Adobe Video Master",
+      "Adobe Web Master"
+    ]
+  },
+  {
+    "organization_name": "Agile Business Consortium",
+    "name": [
+      "AgileBA Foundation (Agile Business Analyst Foundation)",
+      "AgileBA Practitioner (Agile Business Analyst Practitioner)"
+    ]
+  },
+  {
+    "organization_name": "Akendi",
+    "name": [
+      "Certified User Experience Professional (CXP)",
+      "Certified Service Design Professional (CSDP)"
+    ]
+  },
+  {
+    "organization_name": "Alliance Française",
+    "name": [
+      "DELF (Diplôme d'Études en Langue Française) A1",
+      "DELF A2",
+      "DELF B1",
+      "DELF B2",
+      "DALF (Diplôme Approfondi de Langue Française) C1",
+      "DALF C2",
+      "TEF (Test d'Évaluation de Français)",
+      "TEF Canada",
+      "TEF for Naturalization",
+      "TEF Quebec (TEFaQ)"
+    ]
+  },
+  {
+    "organization_name": "Amazon Web Services (AWS)",
+    "name": [
+      "AWS Certified Data Analytics – Specialty",
+      "AWS Certified DevOps Engineer – Professional",
+      "AWS Certified Solutions Architect – Professional",
+      "AWS Certified Developer – Associate",
+      "AWS Certified Advanced Networking – Specialty"
+    ]
+  },
+  {
+    "organization_name": "American Academy of Nurse Practitioners Certification Board (AANPCB)",
+    "name": [
+      "FNP (Family Nurse Practitioner)",
+      "AGNP (Adult-Gerontology Primary Care Nurse Practitioner)",
+      "ENP (Emergency Nurse Practitioner)"
+    ]
+  },
+  {
+    "organization_name": "American Association of Critical-Care Nurses (AACN)",
+    "name": [
+      "CCRN (Critical Care Registered Nurse)",
+      "CCRN-E (Critical Care Registered Nurse - Adult Tele-ICU)",
+      "CCRN-K (Critical Care Registered Nurse - Knowledge Professional)",
+      "PCCN (Progressive Care Certified Nurse)",
+      "ACCNS-AG (Adult-Gerontology Clinical Nurse Specialist)",
+      "ACCNS-P (Pediatric Clinical Nurse Specialist)",
+      "ACCNS-N (Neonatal Clinical Nurse Specialist)"
+    ]
+  },
+  {
+    "organization_name": "American Association of Nurse Anesthetists (AANA)",
+    "name": [
+      "OCN (Oncology Certified Nurse)",
+      "CBCN (Certified Breast Care Nurse)",
+      "CPHON (Certified Pediatric Hematology Oncology Nurse)",
+      "BMTCN (Blood and Marrow Transplant Certified Nurse)",
+      "AOCN (Advanced Oncology Certified Nurse)",
+      "AOCNP (Advanced Oncology Certified Nurse Practitioner)"
+    ]
+  },
+  {
+    "organization_name": "American Association of Nurse Practitioners (AANP)",
+    "name": [
+      "ENP-C (Emergency Nurse Practitioner Certification)"
+    ]
+  },
+  {
+    "organization_name": "American Board of Perianesthesia Nursing Certification (ABPANC)",
+    "name": [
+      "CAPA (Certified Post Anesthesia Nurse)",
+      "CPAN (Certified Ambulatory Perianesthesia Nurse)"
+    ]
+  },
+  {
+    "organization_name": "American College of Clinical Pharmacy (ACCP)",
+    "name": [
+      "CCP (Certified Clinical Pharmacist)",
+      "Clinical Pharmacist Practitioner Certification",
+      "Board Certified Pharmacotherapy Specialist (BCPS)",
+      "Board Certified Oncology Pharmacist (BCOP)",
+      "Board Certified Cardiology Pharmacist (BCCP)",
+      "Board Certified Critical Care Pharmacist (BCCCP)",
+      "Board Certified Infectious Diseases Pharmacist (BCIDP)",
+      "Board Certified Pediatric Pharmacy Specialist (BCPPS)",
+      "Board Certified Psychiatric Pharmacist (BCPP)",
+      "Board Certified Ambulatory Care Pharmacist (BCACP)"
+    ]
+  },
+  {
+    "organization_name": "American Management Association (AMA)",
+    "name": [
+      "Certified Professional in Management (CPM)",
+      "AMA Certified Professional in Management™ (AMA-CPM)"
+    ]
+  },
+  {
+    "organization_name": "American Marketing Association (AMA)",
+    "name": [
+      "PCM® Sales Management Certification",
+      "PCM® Marketing Management Certification",
+      "PCM® Digital Marketing Certification",
+      "PCM® Content Marketing Certification",
+      "PCM® Brand Management Certification",
+      "PCM® Marketing Research Certification",
+      "PCM® Social Media Marketing Certification",
+      "PCM® Mobile Marketing Certification",
+      "PCM® Analytics Certification",
+      "PCM® Email Marketing Certification"
+    ]
+  },
+  {
+    "organization_name": "American Midwifery Certification Board (AMCB)",
+    "name": [
+      "American Midwifery Certification Board (AMCB)"
+    ]
+  },
+  {
+    "organization_name": "American Nurses Credentialing Center (ANCC)",
+    "name": [
+      "RN-BC (Registered Nurse - Board Certified)",
+      "PCCN (Progressive Care Certified Nurse)",
+      "AGPCNP-BC (Adult-Gerontology Primary Care Nurse Practitioner - Board Certified)",
+      "FNP-BC (Family Nurse Practitioner - Board Certified)",
+      "PMHNP-BC (Psychiatric-Mental Health Nurse Practitioner - Board Certified)",
+      "NPD-BC (Nurse Professional Development - Board Certified)",
+      "NE-BC (Nurse Executive - Board Certified)",
+      "NEA-BC (Nurse Executive Advanced - Board Certified)"
+    ]
+  },
+  {
+    "organization_name": "American Nurses Credentialing Center (ANCC) - Additional",
+    "name": [
+      "AGACNP-BC (Adult-Gerontology Acute Care Nurse Practitioner - Board Certified)",
+      "PMHCNS-BC (Psychiatric-Mental Health Clinical Nurse Specialist - Board Certified)",
+      "RN-BC (Registered Nurse - Board Certified) in various specialties like Ambulatory Care, Cardiac Vascular, Gerontological, Informatics, and more."
+    ]
+  },
+  {
+    "organization_name": "American Organization for Nursing Leadership (AONL)",
+    "name": [
+      "CENP (Certified in Executive Nursing Practice)",
+      "CNML (Certified Nurse Manager and Leader)"
+    ]
+  },
+  {
+    "organization_name": "American Pharmacists Association (APhA)",
+    "name": [
+      "APhA Immunization Certification",
+      "APhA Diabetes Care Certification",
+      "APhA Medication Therapy Management (MTM) Certification",
+      "APhA Delivering Medication Therapy Management Services",
+      "APhA Pharmacy-Based Cardiovascular Disease Risk Management",
+      "APhA Pharmacy-Based Immunization Delivery",
+      "APhA Pharmacy-Based Travel Health Services",
+      "APhA The Pharmacist & Patient-Centered Diabetes Care",
+      "APhA Pharmacist & Patient-Centered Diabetes Care Certificate Training Program",
+      "APhA Pharmacy-Based Point-of-Care Testing"
+    ]
+  },
+  {
+    "organization_name": "American Society for Quality (ASQ)",
+    "name": [
+      "CSSYB (Certified Six Sigma Yellow Belt)",
+      "CSSGB (Certified Six Sigma Green Belt)",
+      "CSSBB (Certified Six Sigma Black Belt)",
+      "CSSMBB (Certified Six Sigma Master Black Belt)"
+    ]
+  },
+  {
+    "organization_name": "American Society of Consultant Pharmacists (ASCP)",
+    "name": [
+      "Certified Geriatric Pharmacist (CGP)",
+      "ASCP Certified Consultant Pharmacist",
+      "ASCP Geriatric Pharmacotherapy Certification",
+      "ASCP Dementia Care Certification",
+      "ASCP Diabetes Care Certification",
+      "ASCP Pain Management Certification",
+      "ASCP Cardiovascular Care Certification",
+      "ASCP Respiratory Care Certification",
+      "ASCP Endocrinology Certification",
+      "ASCP Infectious Disease Certification"
+    ]
+  },
+  {
+    "organization_name": "American Society of Health-System Pharmacists (ASHP)",
+    "name": [
+      "Certified Pharmacy Technician (CPhT)",
+      "Certified Compounded Sterile Preparation Technician (CSPT)",
+      "Pharmacy Technician Certification Program",
+      "ASHP Accredited Pharmacy Technician Education Programs",
+      "Pharmacy Technician Advanced Certification",
+      "Residency Program Accreditation (PGY1, PGY2, PGY3)",
+      "Certified Clinical Pharmacy Specialist (CCPS)",
+      "ASHP Accredited Technician Training Program",
+      "Certified Geriatric Pharmacy Technician",
+      "Certified Oncology Pharmacy Technician"
+    ]
+  },
+  {
+    "organization_name": "Ansys",
+    "name": [
+      "Ansys Certified Professional in Structural Analysis",
+      "Ansys Certified Professional in Fluid Dynamics",
+      "Ansys Certified Professional in Electromagnetics"
+    ]
+  },
+  {
+    "organization_name": "Appian",
+    "name": [
+      "Appian Certified Associate Developer",
+      "Appian Certified Senior Developer",
+      "Appian Certified Lead Developer"
+    ]
+  },
+  {
+    "organization_name": "Apple",
+    "name": [
+      "Apple Certified Pro in Motion",
+      "Apple Certified Pro in Final Cut Pro",
+      "Apple Teacher",
+      "Apple Distinguished Educator (ADE)",
+      "Apple Professional Learning Specialist",
+      "Apple Certified Support Professional (ACSP)",
+      "Apple Certified Technical Coordinator (ACTC)",
+      "Apple Certified Trainer",
+      "Apple Classroom Certification",
+      "Apple iWork Certification",
+      "Apple Swift Playgrounds Certification",
+      "Apple Creativity and Coding Certification"
+    ]
+  },
+  {
+    "organization_name": "Aruba Networks (Hewlett Packard Enterprise)",
+    "name": [
+      "Aruba Certified Mobility Associate (ACMA)",
+      "Aruba Certified Mobility Professional (ACMP)",
+      "Aruba Certified Design Expert (ACDX)",
+      "Aruba Certified ClearPass Professional (ACCP)"
+    ]
+  },
+  {
+    "organization_name": "Association for Talent Development (ATD)",
+    "name": [
+      "Certified Professional in Learning and Performance (CPLP)",
+      "Associate Professional in Talent Development (APTD)",
+      "ATD Master Trainer Program",
+      "ATD Master Instructional Designer Program",
+      "ATD Master Performance Consultant Program",
+      "ATD Training Certificate",
+      "ATD Designing Learning Certificate",
+      "ATD E-Learning Instructional Design Certificate",
+      "ATD Change Management Certificate",
+      "ATD Project Management for Learning Professionals Certificate"
+    ]
+  },
+  {
+    "organization_name": "Atlassian",
+    "name": [
+      "Atlassian Certified Jira Project Administrator",
+      "Atlassian Certified Jira Administrator",
+      "Atlassian Certified Confluence Administrator",
+      "Atlassian Certified in Agile Development with Jira Software"
+    ]
+  },
+  {
+    "organization_name": "Autodesk",
+    "name": [
+      "Autodesk Certified User (ACU)",
+      "Autodesk Certified Professional (ACP)",
+      "Autodesk Certified Specialist"
+    ]
+  },
+  {
+    "organization_name": "Autodesk (Additional)",
+    "name": [
+      "Autodesk Certified Instructor (ACI)",
+      "Autodesk Certified Revit Professional",
+      "Autodesk Certified AutoCAD Professional"
+    ]
+  },
+  {
+    "organization_name": "Automation Anywhere",
+    "name": [
+      "Automation Anywhere Certified Advanced RPA Professional (V11)",
+      "Automation Anywhere Certified Master RPA Professional (V11)",
+      "Automation Anywhere Certified RPA Professional (A2019)"
+    ]
+  },
+  {
+    "organization_name": "AutomationEdge",
+    "name": [
+      "AutomationEdge RPA Foundation Certification",
+      "AutomationEdge RPA Developer Certification"
+    ]
+  },
+  {
+    "organization_name": "BCS, The Chartered Institute for IT",
+    "name": [
+      "Foundation Certificate in User Experience"
+    ]
+  },
+  {
+    "organization_name": "BCS, The Chartered Institute for IT (formerly British Computer Society)",
+    "name": [
+      "BCS Foundation Certificate in Business Analysis",
+      "BCS Practitioner Certificate in Business Analysis Practice",
+      "BCS International Diploma in Business Analysis"
+    ]
+  },
+  {
+    "organization_name": "BICSI (Building Industry Consulting Service International)",
+    "name": [
+      "BICSI Registered Communications Distribution Designer (RCDD)",
+      "BICSI Certified Telecommunications Project Manager (CTPM)",
+      "BICSI Outside Plant Designer (OSP)"
+    ]
+  },
+  {
+    "organization_name": "Bentley Systems",
+    "name": [
+      "Bentley Accredited MicroStation User",
+      "Bentley Accredited OpenRoads Designer",
+      "Bentley Accredited ProjectWise User"
+    ]
+  },
+  {
+    "organization_name": "Bentley Systems (Additional)",
+    "name": [
+      "Bentley Accredited STAAD.Pro Structural Engineer",
+      "Bentley Accredited OpenPlant Modeler",
+      "Bentley Accredited OpenBuildings Designer"
+    ]
+  },
+  {
+    "organization_name": "Blue Prism",
+    "name": [
+      "Blue Prism Developer Certification",
+      "Blue Prism Professional Developer Certification",
+      "Blue Prism Solution Designer Certification",
+      "Blue Prism Technical Architect Certification"
+    ]
+  },
+  {
+    "organization_name": "Board of Pharmacy Specialties (BPS)",
+    "name": [
+      "BCPS (Board Certified Pharmacotherapy Specialist)",
+      "BCACP (Board Certified Ambulatory Care Pharmacist)",
+      "BCGP (Board Certified Geriatric Pharmacist)",
+      "BCPP (Board Certified Psychiatric Pharmacist)",
+      "BCOP (Board Certified Oncology Pharmacist)",
+      "BCNP (Board Certified Nuclear Pharmacist)",
+      "BCTXP (Board Certified Transplant Pharmacist)",
+      "BCIDP (Board Certified Infectious Diseases Pharmacist)",
+      "BCSCP (Board Certified Sterile Compounding Pharmacist)",
+      "BCADM (Board Certified Advanced Diabetes Management)"
+    ]
+  },
+  {
+    "organization_name": "British Council",
+    "name": [
+      "IELTS (International English Language Testing System) Academic",
+      "IELTS General Training",
+      "APTIS (General)",
+      "APTIS for Teachers",
+      "APTIS for Teens",
+      "APTIS Advanced",
+      "British Council Certificate in Teaching English to Speakers of Other Languages (CELTA)",
+      "British Council Certificate in English Language Teaching to Adults (CELTA)",
+      "British Council Certificate in English Language Teaching to Young Learners (CELTYL)",
+      "British Council Certificate in Primary English Language Teaching (CPELT)"
+    ]
+  },
+  {
+    "organization_name": "Cambridge Assessment English",
+    "name": [
+      "Cambridge English: Key (KET)",
+      "Cambridge English: Preliminary (PET)",
+      "Cambridge English: First (FCE)",
+      "Cambridge English: Advanced (CAE)",
+      "Cambridge English: Proficiency (CPE)",
+      "Cambridge English: Business Preliminary (BEC Preliminary)",
+      "Cambridge English: Business Vantage (BEC Vantage)",
+      "Cambridge English: Business Higher (BEC Higher)",
+      "Cambridge English: Legal (ILEC)",
+      "Cambridge English: Financial (ICFE)"
+    ]
+  },
+  {
+    "organization_name": "Cambridge Assessment International Education",
+    "name": [
+      "Cambridge International Certificate in Teaching and Learning",
+      "Cambridge International Diploma in Teaching and Learning",
+      "Cambridge International Certificate in Educational Leadership",
+      "Cambridge International Diploma in Educational Leadership",
+      "Cambridge Professional Development Qualifications (PDQs)",
+      "Cambridge Assessment English Teaching Knowledge Test (TKT)",
+      "Cambridge Assessment International Education Certificate for Teachers",
+      "Cambridge Assessment International Education Diploma for Teachers",
+      "Cambridge Professional Development Certificate",
+      "Cambridge International AS & A Level Teaching Qualification"
+    ]
+  },
+  {
+    "organization_name": "CareerFoundry",
+    "name": [
+      "Certified UX Designer Program",
+      "Certified UI Designer Program"
+    ]
+  },
+  {
+    "organization_name": "Certified Management Accountant (CMA)",
+    "name": [
+      "CMA (Certified Management Accountant)",
+      "Offered by: Institute of Management Accountants (IMA)"
+    ]
+  },
+  {
+    "organization_name": "Certified in the Governance of Enterprise IT (CGEIT)",
+    "name": [
+      "CGEIT (Certified in the Governance of Enterprise IT)",
+      "Offered by: ISACA"
+    ]
+  },
+  {
+    "organization_name": "Certiport",
+    "name": [
+      "App Development with Swift Certification (for UI/UX in app development)"
+    ]
+  },
+  {
+    "organization_name": "Check Point",
+    "name": [
+      "CCSA (Check Point Certified Security Administrator)",
+      "CCSE (Check Point Certified Security Expert)",
+      "CCSM (Check Point Certified Security Master)"
+    ]
+  },
+  {
+    "organization_name": "Chef",
+    "name": [
+      "Chef Fluency Badge",
+      "Chef Essentials Certification",
+      "Chef Automate Compliance Badge",
+      "Chef Intermediate Badge"
+    ]
+  },
+  {
+    "organization_name": "Cisco",
+    "name": [
+      "CCNA (Cisco Certified Network Associate)",
+      "CCNP (Cisco Certified Network Professional)",
+      "CCIE (Cisco Certified Internetwork Expert)",
+      "Cisco CyberOps Associate",
+      "Cisco Certified Technician (CCT)",
+      "Cisco Certified CyberOps Associate",
+      "Cisco DevNet Associate",
+      "DevNet Associate"
+    ]
+  },
+  {
+    "organization_name": "Cisco (Engineering Networking)",
+    "name": [
+      "CCNA (Cisco Certified Network Associate)",
+      "CCNP (Cisco Certified Network Professional)",
+      "CCIE (Cisco Certified Internetwork Expert)"
+    ]
+  },
+  {
+    "organization_name": "Cloudera",
+    "name": [
+      "Cloudera Certified Associate (CCA) Data Analyst",
+      "Cloudera Certified Associate (CCA) Spark and Hadoop Developer",
+      "Cloudera Certified Professional (CCP) Data Engineer"
+    ]
+  },
+  {
+    "organization_name": "CompTIA",
+    "name": [
+      "CompTIA Network+",
+      "CompTIA Security+",
+      "CompTIA Cloud+",
+      "CompTIA CySA+ (Cybersecurity Analyst)"
+    ]
+  },
+  {
+    "organization_name": "CompTIA (Computing Technology Industry Association)",
+    "name": [
+      "A+",
+      "Network+",
+      "Security+",
+      "Cloud+",
+      "CySA+ (Cybersecurity Analyst)",
+      "PenTest+",
+      "CASP+ (CompTIA Advanced Security Practitioner)"
+    ]
+  },
+  {
+    "organization_name": "Coursera (offered by various universities and institutions)",
+    "name": [
+      "Google UX Design Professional Certificate",
+      "CalArts Graphic Design Specialization",
+      "UC San Diego Interaction Design Specialization"
+    ]
+  },
+  {
+    "organization_name": "Dassault Systèmes",
+    "name": [
+      "Certified SOLIDWORKS Associate (CSWA)",
+      "Certified SOLIDWORKS Professional (CSWP)",
+      "Certified SOLIDWORKS Expert (CSWE)"
+    ]
+  },
+  {
+    "organization_name": "Dassault Systèmes (Additional)",
+    "name": [
+      "Certified 3DEXPERIENCE Professional",
+      "Certified ENOVIA Specialist",
+      "Certified CATIA Professional"
+    ]
+  },
+  {
+    "organization_name": "Dell Technologies",
+    "name": [
+      "Dell Certified Systems Expert",
+      "Dell EMC Proven Professional",
+      "Dell EMC Data Scientist Associate (EMCDSA)",
+      "Dell EMC Cloud Infrastructure and Services Associate (EMCCIS)",
+      "Dell EMC Data Center Networking Associate (EMCDNA)"
+    ]
+  },
+  {
+    "organization_name": "DigitalMarketer",
+    "name": [
+      "Certified Customer Acquisition Specialist",
+      "Certified Customer Value Optimization Specialist",
+      "Certified Ecommerce Marketing Specialist",
+      "Certified Email Marketing Specialist",
+      "Certified Content Marketing Specialist",
+      "Certified Search Marketing Specialist",
+      "Certified Social Media Marketing Specialist",
+      "Certified Optimization & Testing Specialist",
+      "Certified Analytics & Data Specialist",
+      "Certified Community Management Specialist"
+    ]
+  },
+  {
+    "organization_name": "Docker",
+    "name": [
+      "Docker Certified Associate (DCA)",
+      "Docker Certified Professional (DCP)"
+    ]
+  },
+  {
+    "organization_name": "EC-Council",
+    "name": [
+      "CEH (Certified Ethical Hacker)",
+      "ECSA (EC-Council Certified Security Analyst)",
+      "LPT (Licensed Penetration Tester)",
+      "CND (Certified Network Defender)"
+    ]
+  },
+  {
+    "organization_name": "ESRI (Environmental Systems Research Institute)",
+    "name": [
+      "Esri Technical Certification – ArcGIS Desktop Associate",
+      "Esri Technical Certification – ArcGIS Desktop Professional",
+      "Esri Technical Certification – Enterprise Geodata Management Associate"
+    ]
+  },
+  {
+    "organization_name": "Educational Testing Service (ETS)",
+    "name": [
+      "TOEFL (Test of English as a Foreign Language)",
+      "TOEIC (Test of English for International Communication)",
+      "GRE (Graduate Record Examination) Verbal",
+      "SAT (Scholastic Assessment Test) Reading and Writing",
+      "PRAXIS English Language Arts Content Knowledge",
+      "PRAXIS English to Speakers of Other Languages (ESOL)",
+      "TSE (Test of Spoken English)",
+      "PPST (Pre-Professional Skills Test) in Reading and Writing",
+      "SLS (School Leadership Series)",
+      "AP English Language and Composition"
+    ]
+  },
+  {
+    "organization_name": "Extreme Networks",
+    "name": [
+      "Extreme Networks Associate (ENA)",
+      "Extreme Networks Specialist (ENS)",
+      "Extreme Networks Expert (ENX)"
+    ]
+  },
+  {
+    "organization_name": "Fortinet",
+    "name": [
+      "NSE 5 (Network Security Analyst)",
+      "NSE 6 (Network Security Specialist)",
+      "NSE 7 (Network Security Architect)",
+      "NSE 8 (Network Security Expert)"
+    ]
+  },
+  {
+    "organization_name": "General Assembly",
+    "name": [
+      "User Experience Design Immersive",
+      "User Experience Design Circuit"
+    ]
+  },
+  {
+    "organization_name": "General HR Certifications:",
+    "name": [
+      "PHR (Professional in Human Resources)",
+      "SPHR (Senior Professional in Human Resources)",
+      "SHRM-CP (Society for Human Resource Management Certified Professional)",
+      "SHRM-SCP (Society for Human Resource Management Senior Certified Professional)",
+      "HRBP (Human Resources Business Professional)",
+      "HRMP (Human Resources Management Professional)",
+      "CHRP (Certified Human Resources Professional)",
+      "CPTD (Certified Professional in Talent Development)",
+      "CCP (Certified Compensation Professional)",
+      "CBP (Certified Benefits Professional)"
+    ]
+  },
+  {
+    "organization_name": "Goethe-Institut",
+    "name": [
+      "Goethe-Zertifikat A1: Start Deutsch 1",
+      "Goethe-Zertifikat A2",
+      "Goethe-Zertifikat B1",
+      "Goethe-Zertifikat B2",
+      "Goethe-Zertifikat C1",
+      "Goethe-Zertifikat C2: Großes Deutsches Sprachdiplom",
+      "TestDaF (Test Deutsch als Fremdsprache)",
+      "Goethe-Test PRO: Deutsch für den Beruf",
+      "Goethe-Zertifikat: Young Learners",
+      "BULATS (Business Language Testing Service)"
+    ]
+  },
+  {
+    "organization_name": "Google",
+    "name": [
+      "Google Ads Certification",
+      "Google Analytics Certification",
+      "Google Digital Sales Certification",
+      "Google Mobile Sites Certification",
+      "Google Ad Manager Certification",
+      "Google Shopping Ads Certification",
+      "Google Display Ads Certification",
+      "Google Search Ads Certification",
+      "Google Video Ads Certification",
+      "Google My Business Certification"
+    ]
+  },
+  {
+    "organization_name": "Google Cloud",
+    "name": [
+      "Google Associate Cloud Engineer",
+      "Google Professional Cloud Architect",
+      "Google Professional Data Engineer",
+      "Google Professional Cloud Developer",
+      "Google Professional Cloud Security Engineer",
+      "Google Cloud Certified – Professional Data Engineer",
+      "Google Cloud Certified – Associate Cloud Engineer"
+    ]
+  },
+  {
+    "organization_name": "Google Cloud Platform (GCP)",
+    "name": [
+      "Google Professional Cloud DevOps Engineer",
+      "Google Associate Cloud Engineer",
+      "Google Professional Cloud Architect",
+      "Google Professional Cloud Developer",
+      "Google Professional Data Engineer"
+    ]
+  },
+  {
+    "organization_name": "Google for Education",
+    "name": [
+      "Google Certified Educator Level 1",
+      "Google Certified Educator Level 2",
+      "Google Certified Trainer",
+      "Google Certified Innovator",
+      "Google Certified Administrator",
+      "Google Cloud Certified Associate Cloud Engineer",
+      "Google Cloud Certified Professional Cloud Architect",
+      "Google Cloud Certified Professional Data Engineer",
+      "Google Cloud Certified Professional Collaboration Engineer",
+      "Google Cloud Certified Professional Cloud Developer"
+    ]
+  },
+  {
+    "organization_name": "HDI (Help Desk Institute)",
+    "name": [
+      "HDI Customer Service Representative (HDI-CSR)",
+      "HDI Support Center Analyst (HDI-SCA)",
+      "HDI Desktop Support Technician (HDI-DST)",
+      "HDI Technical Support Professional (HDI-TSP)",
+      "HDI Support Center Team Lead (HDI-SCTL)",
+      "HDI Support Center Manager (HDI-SCM)",
+      "HDI Desktop Support Manager (HDI-DSM)",
+      "HDI Support Center Director (HDI-SCD)"
+    ]
+  },
+  {
+    "organization_name": "Harvard Business School",
+    "name": [
+      "Program for Leadership Development (PLD)",
+      "Advanced Management Program (AMP)"
+    ]
+  },
+  {
+    "organization_name": "HashiCorp",
+    "name": [
+      "HashiCorp Certified: Terraform Associate",
+      "HashiCorp Certified: Vault Associate",
+      "HashiCorp Certified: Consul Associate",
+      "HashiCorp Certified: Nomad Associate"
+    ]
+  },
+  {
+    "organization_name": "Honeywell",
+    "name": [
+      "Honeywell Certified Control Systems Technician",
+      "Honeywell Certified DCS Engineer",
+      "Honeywell Certified Safety Instrumented Systems Engineer"
+    ]
+  },
+  {
+    "organization_name": "Hootsuite",
+    "name": [
+      "Hootsuite Social Marketing Certification",
+      "Hootsuite Advanced Social Advertising Certification",
+      "Hootsuite Social Selling Certification",
+      "Hootsuite Platform Certification",
+      "Hootsuite Advanced Social Media Strategy Certification",
+      "Hootsuite Analytics Certification",
+      "Hootsuite Content Marketing Certification",
+      "Hootsuite Social Media ROI and Value Certification",
+      "Hootsuite Customer Care and Engagement Certification",
+      "Hootsuite Crisis Management and Response Certification"
+    ]
+  },
+  {
+    "organization_name": "Hootsuite Academy",
+    "name": [
+      "Social Media Strategy Certification (relevant for UI/UX in social media contexts)"
+    ]
+  },
+  {
+    "organization_name": "Hospice and Palliative Nurses Association (HPNA)",
+    "name": [
+      "CHPN (Certified Hospice and Palliative Nurse)",
+      "ACHPN (Advanced Certified Hospice and Palliative Nurse)",
+      "CHPPN (Certified Hospice and Palliative Pediatric Nurse)"
+    ]
+  },
+  {
+    "organization_name": "Huawei",
+    "name": [
+      "HCIA (Huawei Certified ICT Associate)",
+      "HCIP (Huawei Certified ICT Professional)",
+      "HCIE (Huawei Certified ICT Expert)"
+    ]
+  },
+  {
+    "organization_name": "HubSpot",
+    "name": [
+      "Inbound Sales Certification",
+      "Sales Enablement Certification",
+      "HubSpot Sales Software Certification",
+      "Frictionless Sales Certification",
+      "Pipeline Management Certification",
+      "HubSpot Marketing Software Certification",
+      "Inbound Marketing Certification",
+      "Content Marketing Certification",
+      "Email Marketing Certification",
+      "Social Media Marketing Certification"
+    ]
+  },
+  {
+    "organization_name": "Human Factors International (HFI)",
+    "name": [
+      "Certified Usability Analyst (CUA)",
+      "Certified User Experience Analyst (CXA)"
+    ]
+  },
+  {
+    "organization_name": "IASSC (International Association for Six Sigma Certification)",
+    "name": [
+      "IASSC Certified Lean Six Sigma Yellow Belt (ICYB)",
+      "IASSC Certified Lean Six Sigma Green Belt (ICGB)",
+      "IASSC Certified Lean Six Sigma Black Belt (ICBB)"
+    ]
+  },
+  {
+    "organization_name": "IBM",
+    "name": [
+      "IBM Certified Application Developer – Cloud Platform",
+      "IBM Certified Solution Developer – Cloud Pak for Applications",
+      "IBM Certified Developer – Cognos Analytics",
+      "IBM Certified Developer – Watson",
+      "IBM Certified Database Associate – DB2",
+      "IBM Certified Database Administrator – DB2",
+      "IBM Certified Advanced Database Administrator – DB2",
+      "IBM Certified Solution Developer – DB2",
+      "IBM Certified Technical Support Specialist",
+      "IBM Certified Solution Architect – Cloud Pak",
+      "IBM Certified Administrator – Cloud Pak",
+      "IBM Certified Solution Advisor – Cloud Pak",
+      "IBM Certified Deployment Professional",
+      "IBM Certified Database Administrator",
+      "IBM Certified Specialist – Power Systems",
+      "IBM Certified System Administrator – WebSphere",
+      "IBM Certified Technical Advocate"
+    ]
+  },
+  {
+    "organization_name": "IEEE (Institute of Electrical and Electronics Engineers)",
+    "name": [
+      "IEEE Certified Wireless Network Professional (CWNP)",
+      "IEEE Certified Software Development Professional (CSDP)",
+      "IEEE Certified Reliability Engineer"
+    ]
+  },
+  {
+    "organization_name": "ISA (International Society of Automation)",
+    "name": [
+      "Certified Automation Professional (CAP)",
+      "Certified Control Systems Technician (CCST)",
+      "Certified Industrial Maintenance Mechanic (CIMM)"
+    ]
+  },
+  {
+    "organization_name": "ISA (International Society of Automation) (Additional)",
+    "name": [
+      "ISA Certified Automation and Control Systems Designer (CACSD)",
+      "ISA Certified Cybersecurity Professional (ICCP)",
+      "ISA Certified Machinery Safety Expert (CMSE)"
+    ]
+  },
+  {
+    "organization_name": "ISACA (Information Systems Audit and Control Association) Certifications",
+    "name": [
+      "CISA (Certified Information Systems Auditor)",
+      "CISM (Certified Information Security Manager)",
+      "CRISC (Certified in Risk and Information Systems Control)",
+      "CGEIT (Certified in the Governance of Enterprise IT)",
+      "CSX-P (Cybersecurity Practitioner)"
+    ]
+  },
+  {
+    "organization_name": "ISO (International Organization for Standardization)",
+    "name": [
+      "ISO 91 Lead Auditor",
+      "ISO 141 Lead Auditor",
+      "ISO 271 Lead Implementer"
+    ]
+  },
+  {
+    "organization_name": "ISTE (International Society for Technology in Education)",
+    "name": [
+      "ISTE Certified Educator",
+      "ISTE Certification for Educators",
+      "ISTE Standards Certification",
+      "ISTE Digital Citizenship Certification",
+      "ISTE Computational Thinking Certification",
+      "ISTE Edtech Integration Certification",
+      "ISTE Professional Learning Certification",
+      "ISTE Virtual Learning Certification",
+      "ISTE Online Teaching Certification",
+      "ISTE Project-Based Learning Certification"
+    ]
+  },
+  {
+    "organization_name": "ITIL (Information Technology Infrastructure Library)",
+    "name": [
+      "ITIL Foundation",
+      "ITIL Practitioner",
+      "ITIL Intermediate",
+      "ITIL Expert",
+      "ITIL Master"
+    ]
+  },
+  {
+    "organization_name": "Institute for Certified Professional Managers (ICPM)",
+    "name": [
+      "Certified Manager (CM)",
+      "Associate Certified Manager (ACM)"
+    ]
+  },
+  {
+    "organization_name": "Institute for Safe Medication Practices (ISMP)",
+    "name": [
+      "Medication Safety Certification",
+      "ISMP Certified Medication Safety Specialist",
+      "ISMP Medication Safety Management",
+      "ISMP Safe Medication Practices for Community Pharmacy",
+      "ISMP Safe Medication Practices for Long-Term Care",
+      "ISMP Safe Medication Practices for Ambulatory Care",
+      "ISMP Medication Safety Officer Training Program",
+      "ISMP Sterile Compounding Certificate",
+      "ISMP High-Alert Medications Certification",
+      "ISMP Medication Error Prevention Certificate"
+    ]
+  },
+  {
+    "organization_name": "Instituto Cervantes",
+    "name": [
+      "DELE (Diplomas de Español como Lengua Extranjera) A1",
+      "DELE A2",
+      "DELE B1",
+      "DELE B2",
+      "DELE C1",
+      "DELE C2",
+      "SIELE (Servicio Internacional de Evaluación de la Lengua Española)",
+      "CCSE (Conocimientos Constitucionales y Socioculturales de España)",
+      "Instituto Cervantes Certificate in Spanish Language Teaching",
+      "Instituto Cervantes Online Spanish Teacher Training"
+    ]
+  },
+  {
+    "organization_name": "Interaction Design Foundation (IDF)",
+    "name": [
+      "IDF Certified UX Designer",
+      "IDF Certified Interaction Designer",
+      "IDF Certified UI Designer"
+    ]
+  },
+  {
+    "organization_name": "Interaction Design Foundation (IDF) - Additional",
+    "name": [
+      "IDF Design Thinking",
+      "IDF Mobile UX Design",
+      "IDF User Research"
+    ]
+  },
+  {
+    "organization_name": "Intergraph (Hexagon PPM)",
+    "name": [
+      "SmartPlant Instrumentation Certified User",
+      "SmartPlant 3D Certified User",
+      "SmartPlant Review Certified User"
+    ]
+  },
+  {
+    "organization_name": "Intergraph (Hexagon PPM) (Additional)",
+    "name": [
+      "SmartPlant P&ID Certified User",
+      "SmartPlant Electrical Certified User",
+      "SmartPlant Materials Certified User"
+    ]
+  },
+  {
+    "organization_name": "International Coach Federation (ICF)",
+    "name": [
+      "Associate Certified Coach (ACC)",
+      "Professional Certified Coach (PCC)",
+      "Master Certified Coach (MCC)"
+    ]
+  },
+  {
+    "organization_name": "International Institute of Business Analysis (IIBA)",
+    "name": [
+      "ECBA (Entry Certificate in Business Analysis)",
+      "CCBA (Certification of Capability in Business Analysis)",
+      "CBAP (Certified Business Analysis Professional)",
+      "CBATL (Certified Business Analysis Thought Leader)",
+      "IIBA-AAC (IIBA Agile Analysis Certification)",
+      "IIBA-CBDA (IIBA Certification in Business Data Analytics)",
+      "CBAP (Certified Business Analysis Professional)",
+      "ECBA (Entry Certificate in Business Analysis)"
+    ]
+  },
+  {
+    "organization_name": "International Requirements Engineering Board (IREB)",
+    "name": [
+      "CPRE (Certified Professional for Requirements Engineering) Foundation Level",
+      "CPRE Advanced Level",
+      "CPRE Expert Level"
+    ]
+  },
+  {
+    "organization_name": "International Society for Technology in Education (ISTE) (Additional)",
+    "name": [
+      "ISTE Certified Trainer",
+      "ISTE Certified Coach",
+      "ISTE Certified Leader",
+      "ISTE Certified Librarian",
+      "ISTE Certified Instructional Designer",
+      "ISTE Certified Curriculum Developer",
+      "ISTE Certified STEM Educator",
+      "ISTE Certified Digital Literacy Instructor",
+      "ISTE Certified Virtual Learning Specialist",
+      "ISTE Certified Blended Learning Specialist"
+    ]
+  },
+  {
+    "organization_name": "International Software Testing Qualifications Board",
+    "name": [
+      "ISTQB Certified Tester Foundation Level (CTFL)",
+      "ISTQB Certified Tester Foundation Level - Agile Tester (CTFL-AT)",
+      "ISTQB Certified Tester Advanced Level (CTAL)",
+      "Test Manager",
+      "Test Analyst",
+      "Technical Test Analyst",
+      "ISTQB Certified Tester Expert Level (CTEL)",
+      "Improving the Testing Process",
+      "Test Management",
+      "Test Automation",
+      "ISTQB Certified Tester Foundation Level - Model-Based Tester (CTFL-MBT)",
+      "ISTQB Certified Tester Foundation Level - Acceptance Testing (CTFL-AcT)",
+      "ISTQB Certified Tester Foundation Level - Usability Testing (CTFL-UT)",
+      "ISTQB Certified Tester Advanced Level - Security Tester (CTAL-SEC)",
+      "ISTQB Certified Tester Advanced Level - Test Automation Engineer (CTAL-TAE)",
+      "ISTQB Certified Tester Advanced Level - Agile Technical Tester (CTAL-ATT)"
+    ]
+  },
+  {
+    "organization_name": "Jenkins",
+    "name": [
+      "Certified Jenkins Engineer (CJE)",
+      "Certified CloudBees Jenkins Engineer (CCJE)"
+    ]
+  },
+  {
+    "organization_name": "Juniper Networks",
+    "name": [
+      "JNCIA (Juniper Networks Certified Internet Associate)",
+      "JNCIS (Juniper Networks Certified Internet Specialist)",
+      "JNCIP (Juniper Networks Certified Internet Professional)",
+      "JNCIE (Juniper Networks Certified Internet Expert)"
+    ]
+  },
+  {
+    "organization_name": "Kryon",
+    "name": [
+      "Kryon RPA Developer Certification",
+      "Kryon RPA Advanced Developer Certification"
+    ]
+  },
+  {
+    "organization_name": "Kubernetes",
+    "name": [
+      "Certified Kubernetes Administrator (CKA)",
+      "Certified Kubernetes Application Developer (CKAD)",
+      "Certified Kubernetes Security Specialist (CKS)"
+    ]
+  },
+  {
+    "organization_name": "LinkedIn Learning",
+    "name": [
+      "Certified Sales Professional (CSP)",
+      "LinkedIn Sales Navigator Certification",
+      "Advanced Selling Strategies Certification",
+      "Cold Calling Mastery Certification",
+      "Sales Prospecting Certification",
+      "Sales Forecasting Certification",
+      "Sales Management Foundations Certification",
+      "Solution Selling Certification",
+      "Strategic Negotiation Certification",
+      "Social Selling Certification"
+    ]
+  },
+  {
+    "organization_name": "LinkedIn Learning (various courses with certifications)",
+    "name": [
+      "UX Design Techniques",
+      "UI/UX Design Foundations",
+      "Web and Mobile Design"
+    ]
+  },
+  {
+    "organization_name": "LinkedIn Sales Solutions",
+    "name": [
+      "LinkedIn Sales Navigator Certification",
+      "LinkedIn Social Selling Index Certification",
+      "LinkedIn Account-Based Marketing Certification",
+      "LinkedIn Sales Insights Certification",
+      "LinkedIn Sales Engagement Certification",
+      "LinkedIn Lead Gen Forms Certification",
+      "LinkedIn Content and Creative Design Certification",
+      "LinkedIn Ad Targeting Certification",
+      "LinkedIn Campaign Manager Certification",
+      "LinkedIn Reporting and Analytics Certification"
+    ]
+  },
+  {
+    "organization_name": "MIT Sloan School of Management",
+    "name": [
+      "Executive Certificate in Management and Leadership",
+      "Executive Certificate in Strategy and Innovation",
+      "Executive Certificate in Technology, Operations, and Value Chain Management"
+    ]
+  },
+  {
+    "organization_name": "MariaDB",
+    "name": [
+      "MariaDB Certified Database Administrator",
+      "MariaDB Certified Developer"
+    ]
+  },
+  {
+    "organization_name": "MathWorks",
+    "name": [
+      "MATLAB Certified Associate",
+      "MATLAB Certified Professional",
+      "Simulink Certified Associate"
+    ]
+  },
+  {
+    "organization_name": "MathWorks (Additional)",
+    "name": [
+      "MATLAB Certified Trainer",
+      "Simulink Certified Professional",
+      "MATLAB Certified Application Developer"
+    ]
+  },
+  {
+    "organization_name": "Mendix",
+    "name": [
+      "Mendix Rapid Developer",
+      "Mendix Intermediate Developer",
+      "Mendix Advanced Developer",
+      "Mendix Expert Developer"
+    ]
+  },
+  {
+    "organization_name": "Microsoft",
+    "name": [
+      "Microsoft Certified: Azure Fundamentals",
+      "Microsoft Certified: Azure Administrator Associate",
+      "Microsoft Certified: Azure Solutions Architect Expert",
+      "Microsoft Certified: Azure Security Engineer Associate",
+      "Microsoft Certified: Microsoft 365 Fundamentals",
+      "Microsoft Certified: Microsoft 365 Security Administrator Associate",
+      "Microsoft Certified: Azure Data Fundamentals",
+      "Microsoft Certified: Azure Database Administrator Associate",
+      "Microsoft Certified: Azure Data Engineer Associate",
+      "Microsoft Certified: Azure Solutions Architect Expert",
+      "Microsoft Certified: Azure Fundamentals",
+      "Microsoft Certified: Azure Solutions Architect Expert",
+      "Microsoft Certified: Azure DevOps Engineer Expert",
+      "Microsoft Certified: Azure DevOps Engineer Expert",
+      "Microsoft Certified: Azure Fundamentals",
+      "Microsoft Certified: Azure Administrator Associate",
+      "Microsoft Certified: Azure Developer Associate",
+      "Microsoft Certified: Azure Solutions Architect Expert",
+      "Microsoft Certified Educator (MCE)",
+      "Microsoft Innovative Educator (MIE)",
+      "Microsoft Innovative Educator Expert (MIEE)",
+      "Microsoft Innovative Educator Trainer",
+      "Microsoft Innovative Educator Fellow",
+      "Microsoft Technology Associate (MTA)",
+      "Microsoft Certified Fundamentals",
+      "Microsoft Certified: Azure Fundamentals",
+      "Microsoft Certified: Microsoft 365 Fundamentals",
+      "Microsoft Certified: Azure AI Fundamentals"
+    ]
+  },
+  {
+    "organization_name": "MongoDB",
+    "name": [
+      "MongoDB Certified Developer Associate",
+      "MongoDB Certified DBA Associate",
+      "MongoDB Certified Developer Advanced",
+      "MongoDB Certified DBA Advanced",
+      "MongoDB Certified DBA Associate",
+      "MongoDB Certified Developer Associate"
+    ]
+  },
+  {
+    "organization_name": "MuleSoft",
+    "name": [
+      "MuleSoft Certified Developer – Level 1 (Mule 4)",
+      "MuleSoft Certified Developer – Integration Professional",
+      "MuleSoft Certified Platform Architect"
+    ]
+  },
+  {
+    "organization_name": "National Association of Boards of Pharmacy (NABP)",
+    "name": [
+      "FPGEC (Foreign Pharmacy Graduate Equivalency Certification)",
+      "NAPLEX (North American Pharmacist Licensure Examination)",
+      "MPJE (Multistate Pharmacy Jurisprudence Examination)",
+      "PARE (Pharmacist Assessment for Remediation Evaluation)",
+      "DPE (Drug Distributor Accreditation)",
+      "VPP (Verified Pharmacy Program)",
+      "VAWD (Verified-Accredited Wholesale Distributors)",
+      "DOT (Digital Pharmacist Certification)",
+      "Certified Pharmacy Technician (CPhT)",
+      "NABP e-Profile Connect"
+    ]
+  },
+  {
+    "organization_name": "National Board for Professional Teaching Standards (NBPTS)",
+    "name": [
+      "National Board Certification",
+      "National Board Certification Renewal",
+      "Early Childhood Generalist Certification",
+      "Middle Childhood Generalist Certification",
+      "Early Adolescence Generalist Certification",
+      "Adolescence and Young Adulthood Generalist Certification",
+      "Early and Middle Childhood Literacy Certification",
+      "Early Adolescence English Language Arts Certification",
+      "Adolescence and Young Adulthood English Language Arts Certification",
+      "Adolescence and Young Adulthood Mathematics Certification"
+    ]
+  },
+  {
+    "organization_name": "National Board of Certification and Recertification for Nurse Anesthetists (NBCRNA)",
+    "name": [
+      "CRNA (Certified Registered Nurse Anesthetist)"
+    ]
+  },
+  {
+    "organization_name": "National Certification Corporation (NCC)",
+    "name": [
+      "RNC-OB (Inpatient Obstetric Nursing)",
+      "RNC-MNN (Maternal Newborn Nursing)",
+      "RNC-NIC (Neonatal Intensive Care Nursing)",
+      "RNC-LRN (Low Risk Neonatal Nursing)",
+      "WHNP-BC (Women’s Health Care Nurse Practitioner)",
+      "C-EFM (Electronic Fetal Monitoring)"
+    ]
+  },
+  {
+    "organization_name": "National Healthcareer Association (NHA)",
+    "name": [
+      "ExCPT (Exam for the Certification of Pharmacy Technicians)",
+      "Certified Clinical Medical Assistant (CCMA)",
+      "Certified Medical Administrative Assistant (CMAA)",
+      "Certified Phlebotomy Technician (CPT)",
+      "Certified EKG Technician (CET)",
+      "Certified Billing and Coding Specialist (CBCS)",
+      "Certified Electronic Health Records Specialist (CEHRS)",
+      "Certified Patient Care Technician/Assistant (CPCT/A)",
+      "Certified Medical Scribe Specialist (CMSS)",
+      "Certified Healthcare Access Associate (CHAA)"
+    ]
+  },
+  {
+    "organization_name": "National Instruments",
+    "name": [
+      "Certified LabVIEW Associate Developer (CLAD)",
+      "Certified LabVIEW Developer (CLD)",
+      "Certified LabVIEW Architect (CLA)"
+    ]
+  },
+  {
+    "organization_name": "Nice",
+    "name": [
+      "Nice Advanced Process Automation Certificate",
+      "Nice Certified RPA Developer"
+    ]
+  },
+  {
+    "organization_name": "Offensive Security",
+    "name": [
+      "OSCP (Offensive Security Certified Professional)",
+      "OSCE (Offensive Security Certified Expert)",
+      "OSWE (Offensive Security Web Expert)",
+      "OSEE (Offensive Security Exploitation Expert)"
+    ]
+  },
+  {
+    "organization_name": "Oncology Nursing Certification Corporation (ONCC)",
+    "name": [
+      "CNM (Certified Nurse-Midwife)",
+      "CM (Certified Midwife)"
+    ]
+  },
+  {
+    "organization_name": "Oracle",
+    "name": [
+      "Oracle Certified Professional: Java SE Developer",
+      "Oracle Certified Expert: Java EE Web Component Developer",
+      "Oracle Cloud Infrastructure Developer",
+      "Oracle Database PL/SQL Developer Certified Associate",
+      "Oracle Database SQL Certified Associate",
+      "Oracle Database Administrator Certified Associate (OCA)",
+      "Oracle Database Administrator Certified Professional (OCP)",
+      "Oracle Certified Master, Oracle Database (OCM)",
+      "Oracle Database 12c Administrator Certified Master"
+    ]
+  },
+  {
+    "organization_name": "Oracle (Java)",
+    "name": [
+      "Oracle Certified Professional: Java SE 11 Developer",
+      "Oracle Certified Master, Java SE Developer",
+      "Oracle Certified Expert, Java EE Web Services Developer",
+      "Oracle Certified Expert, Java EE Enterprise Architect"
+    ]
+  },
+  {
+    "organization_name": "PMI (Project Management Institute)",
+    "name": [
+      "PMP (Project Management Professional)",
+      "CAPM (Certified Associate in Project Management)",
+      "PgMP (Program Management Professional)"
+    ]
+  },
+  {
+    "organization_name": "PMI (Project Management Institute) Certifications",
+    "name": [
+      "PMP (Project Management Professional)",
+      "CAPM (Certified Associate in Project Management)",
+      "PMI-ACP (PMI Agile Certified Practitioner)",
+      "PgMP (Program Management Professional)",
+      "PfMP (Portfolio Management Professional)",
+      "PMI-RMP (PMI Risk Management Professional)",
+      "PMI-SP (PMI Scheduling Professional)",
+      "PMI-PBA (Professional in Business Analysis)"
+    ]
+  },
+  {
+    "organization_name": "PTC (Parametric Technology Corporation)",
+    "name": [
+      "PTC Certified Professional for Creo",
+      "PTC Certified Professional for Windchill",
+      "PTC Certified Professional for ThingWorx"
+    ]
+  },
+  {
+    "organization_name": "PTC (Parametric Technology Corporation) (Additional)",
+    "name": [
+      "PTC Windchill Certified Administrator",
+      "PTC Creo Simulation Certified Expert",
+      "PTC ThingWorx Certified Expert"
+    ]
+  },
+  {
+    "organization_name": "Palo Alto Networks",
+    "name": [
+      "PCCSA (Palo Alto Networks Certified Cybersecurity Associate)",
+      "PCNSA (Palo Alto Networks Certified Network Security Administrator)",
+      "PCNSE (Palo Alto Networks Certified Network Security Engineer)",
+      "PCCSA (Palo Alto Networks Certified Cybersecurity Associate)",
+      "PCNSA (Palo Alto Networks Certified Network Security Administrator)",
+      "PCNSE (Palo Alto Networks Certified Network Security Engineer)"
+    ]
+  },
+  {
+    "organization_name": "Pearson",
+    "name": [
+      "PTE Academic (Pearson Test of English Academic)",
+      "PTE General (Pearson Test of English General)",
+      "PTE Young Learners",
+      "Pearson English International Certificate (formerly PTE General)",
+      "Pearson English International Certificate Young Learners",
+      "Versant English Test",
+      "Versant Writing Test",
+      "Versant English Placement Test",
+      "Pearson Test of English for UKVI",
+      "Pearson Test of English Home"
+    ]
+  },
+  {
+    "organization_name": "Pediatric Nursing Certification Board (PNCB)",
+    "name": [
+      "CPN (Certified Pediatric Nurse)",
+      "CPNP-PC (Certified Pediatric Nurse Practitioner - Primary Care)",
+      "CPNP-AC (Certified Pediatric Nurse Practitioner - Acute Care)",
+      "PMHS (Pediatric Primary Care Mental Health Specialist)"
+    ]
+  },
+  {
+    "organization_name": "Pega",
+    "name": [
+      "Pega Certified System Architect (CSA)",
+      "Pega Certified Senior System Architect (CSSA)",
+      "Pega Certified Lead System Architect (CLSA)",
+      "Pega Certified Robotics System Architect"
+    ]
+  },
+  {
+    "organization_name": "Pharmacy Technician Certification Board (PTCB)",
+    "name": [
+      "CPhT (Certified Pharmacy Technician)",
+      "CSPT (Certified Compounded Sterile Preparation Technician)",
+      "CPhT-Adv (Advanced Certified Pharmacy Technician)",
+      "Pharmacy Technician Product Verification Certificate",
+      "Billing and Reimbursement Certificate",
+      "Medication History Certificate",
+      "Controlled Substances Diversion Prevention Certificate",
+      "Immunization Administration Certificate",
+      "Hazardous Drug Management Certificate",
+      "Point-of-Care Testing Certificate"
+    ]
+  },
+  {
+    "organization_name": "Pivotal (VMware Tanzu)",
+    "name": [
+      "Spring Professional Certification",
+      "Spring Developer Certification",
+      "Spring Web Application Developer Certification",
+      "Spring Enterprise Integration Specialist"
+    ]
+  },
+  {
+    "organization_name": "PostgreSQL",
+    "name": [
+      "EDB Certified Associate PostgreSQL 12 (from EnterpriseDB)",
+      "EDB Certified Professional PostgreSQL 12 (from EnterpriseDB)"
+    ]
+  },
+  {
+    "organization_name": "Puppet",
+    "name": [
+      "Puppet Certified Professional",
+      "Puppet Certified Consultant"
+    ]
+  },
+  {
+    "organization_name": "RAIN Group",
+    "name": [
+      "RAIN Selling Certification",
+      "RAIN Sales Negotiation Certification",
+      "RAIN Insight Selling Certification",
+      "RAIN Consultative Selling Certification",
+      "RAIN Strategic Account Management Certification",
+      "RAIN Virtual Selling Certification",
+      "RAIN Sales Coaching Certification",
+      "RAIN Sales Management Certification",
+      "RAIN Sales Prospecting Certification",
+      "RAIN Sales Enablement Certification"
+    ]
+  },
+  {
+    "organization_name": "Red Hat",
+    "name": [
+      "Red Hat Certified Specialist in OpenShift Application Development",
+      "Red Hat Certified Specialist in Containerized Application Development",
+      "Red Hat Certified JBoss Developer",
+      "Red Hat Certified Specialist in Advanced Automation: Ansible Best Practices",
+      "Red Hat Certified System Administrator (RHCSA)",
+      "Red Hat Certified Engineer (RHCE)",
+      "Red Hat Certified Specialist in Ansible Automation",
+      "Red Hat Certified Specialist in OpenShift Administration",
+      "Red Hat Certified Specialist in Virtualization",
+      "Red Hat Certified Architect (RHCA)"
+    ]
+  },
+  {
+    "organization_name": "Riverbed Technology",
+    "name": [
+      "RCPE (Riverbed Certified Performance Engineering)",
+      "RCSA (Riverbed Certified Solutions Associate)",
+      "RCSP (Riverbed Certified Solutions Professional)"
+    ]
+  },
+  {
+    "organization_name": "Rockwell Automation",
+    "name": [
+      "Rockwell Automation Certified Control Systems Technician (CCST)",
+      "Rockwell Automation Certified Control Systems Professional (CCSP)"
+    ]
+  },
+  {
+    "organization_name": "Rockwell Automation (Additional)",
+    "name": [
+      "Rockwell Automation Certified Network Engineer",
+      "Rockwell Automation Certified Motion Control Engineer",
+      "Rockwell Automation Certified Process Control Engineer"
+    ]
+  },
+  {
+    "organization_name": "SAP",
+    "name": [
+      "SAP Certified Development Associate",
+      "SAP Certified Technology Associate",
+      "SAP Certified Application Associate",
+      "SAP Certified Professional",
+      "SAP Certified Technology Associate – SAP HANA",
+      "SAP Certified Application Associate – SAP HANA",
+      "SAP Certified Development Associate – SAP HANA"
+    ]
+  },
+  {
+    "organization_name": "SAP (Engineering Modules)",
+    "name": [
+      "SAP Certified Application Associate - Production Planning & Manufacturing",
+      "SAP Certified Application Associate - Quality Management",
+      "SAP Certified Application Associate - Plant Maintenance"
+    ]
+  },
+  {
+    "organization_name": "Salesforce",
+    "name": [
+      "Salesforce Certified Platform Developer I",
+      "Salesforce Certified Platform Developer II",
+      "Salesforce Certified JavaScript Developer I",
+      "Salesforce Certified B2C Commerce Developer",
+      "Salesforce Certified Technical Architect",
+      "Salesforce Certified Application Architect",
+      "Salesforce Certified System Architect",
+      "Salesforce Certified Administrator",
+      "Salesforce Certified Advanced Administrator",
+      "Salesforce Certified Sales Cloud Consultant",
+      "Salesforce Certified Service Cloud Consultant",
+      "Salesforce Certified Platform App Builder",
+      "Salesforce Certified Platform Developer I",
+      "Salesforce Certified Platform Developer II",
+      "Salesforce Certified Marketing Cloud Administrator",
+      "Salesforce Certified Marketing Cloud Consultant",
+      "Salesforce Certified Marketing Cloud Developer"
+    ]
+  },
+  {
+    "organization_name": "Salesforce (Additional)",
+    "name": [
+      "Salesforce Certified Application Architect",
+      "Salesforce Certified System Architect",
+      "Salesforce Certified Technical Architect"
+    ]
+  },
+  {
+    "organization_name": "Sandler Training",
+    "name": [
+      "Sandler Certified Sales Associate",
+      "Sandler Certified Sales Professional",
+      "Sandler Certified Sales Leader",
+      "Sandler Certified Sales Management",
+      "Sandler Certified Customer Service Representative",
+      "Sandler Certified Business Development",
+      "Sandler Certified Enterprise Selling",
+      "Sandler Certified Inside Sales",
+      "Sandler Certified Negotiation",
+      "Sandler Certified Prospecting"
+    ]
+  },
+  {
+    "organization_name": "Scrum Alliance",
+    "name": [
+      "CSPO (Certified Scrum Product Owner)",
+      "A-CSPO (Advanced Certified Scrum Product Owner)",
+      "CSP-PO (Certified Scrum Professional Product Owner)",
+      "CSM (Certified ScrumMaster)",
+      "A-CSM (Advanced Certified ScrumMaster)",
+      "CSP-SM (Certified Scrum Professional ScrumMaster)",
+      "CSPO (Certified Scrum Product Owner)",
+      "A-CSPO (Advanced Certified Scrum Product Owner)",
+      "CSP-PO (Certified Scrum Professional Product Owner)",
+      "CSD (Certified Scrum Developer)",
+      "CSP (Certified Scrum Professional)",
+      "CAL I (Certified Agile Leadership I)",
+      "CAL II (Certified Agile Leadership II)",
+      "1 Certified Team Coach (CTC)",
+      "1 Certified Enterprise Coach (CEC)",
+      "Certified ScrumMaster (CSM)",
+      "Advanced Certified ScrumMaster (A-CSM)",
+      "Certified Scrum Product Owner (CSPO)",
+      "Advanced Certified Scrum Product Owner (A-CSPO)",
+      "Certified Scrum Developer (CSD)",
+      "Certified Scrum Professional (CSP)",
+      "Certified Agile Leader (CAL)"
+    ]
+  },
+  {
+    "organization_name": "Scrum Alliance (for UX professionals in Agile environments)",
+    "name": [
+      "Certified Scrum Product Owner (CSPO)",
+      "Certified Agile Leadership for Teams (CAL)",
+      "Certified Agile Leadership for Organizations (CAL)"
+    ]
+  },
+  {
+    "organization_name": "ServiceNow",
+    "name": [
+      "ServiceNow Certified Application Developer",
+      "ServiceNow Certified System Administrator",
+      "ServiceNow Certified Implementation Specialist"
+    ]
+  },
+  {
+    "organization_name": "Siemens",
+    "name": [
+      "Siemens Certified Professional for PLM (Product Lifecycle Management)",
+      "Siemens Certified Solid Edge Professional",
+      "Siemens Certified NX Professional"
+    ]
+  },
+  {
+    "organization_name": "Siemens (Additional)",
+    "name": [
+      "Siemens Certified Mechatronic Systems Assistant",
+      "Siemens Certified Mechatronic Systems Associate",
+      "Siemens Certified Mechatronic Systems Professional"
+    ]
+  },
+  {
+    "organization_name": "Six Sigma",
+    "name": [
+      "Offered by: American Society for Quality (ASQ) and other organizations"
+    ]
+  },
+  {
+    "organization_name": "Six Sigma Global Institute (SSGI)",
+    "name": [
+      "SSGI Six Sigma Yellow Belt",
+      "SSGI Six Sigma Green Belt",
+      "SSGI Six Sigma Black Belt",
+      "SSGI Lean Six Sigma Master Black Bel"
+    ]
+  },
+  {
+    "organization_name": "Snowflake",
+    "name": [
+      "SnowPro Core Certification",
+      "SnowPro Advanced: Architect",
+      "SnowPro Advanced: Data Engineer",
+      "SnowPro Advanced: Administrator"
+    ]
+  },
+  {
+    "organization_name": "Specialty Pharmacy Certification Board (SPCB)",
+    "name": [
+      "CSP (Certified Specialty Pharmacist)",
+      "Certified Oncology Specialty Pharmacist",
+      "Certified Infectious Disease Specialty Pharmacist",
+      "Certified Cardiovascular Specialty Pharmacist",
+      "Certified Neurology Specialty Pharmacist",
+      "Certified Rheumatology Specialty Pharmacist",
+      "Certified Gastroenterology Specialty Pharmacist",
+      "Certified Dermatology Specialty Pharmacist",
+      "Certified Endocrinology Specialty Pharmacist",
+      "Certified Pulmonology Specialty Pharmacist"
+    ]
+  },
+  {
+    "organization_name": "Splunk",
+    "name": [
+      "Splunk Core Certified User",
+      "Splunk Core Certified Power User",
+      "Splunk Core Certified Advanced Power User",
+      "Splunk Enterprise Certified Admin",
+      "Splunk Enterprise Certified Architect"
+    ]
+  },
+  {
+    "organization_name": "TEFL (Teaching English as a Foreign Language)",
+    "name": [
+      "TEFL Certificate",
+      "TEFL Diploma",
+      "Advanced TEFL Certificate",
+      "TEFL Business English Certificate",
+      "TEFL Young Learners Certificate",
+      "TEFL Online Certificate",
+      "TEFL Specialist Certificate",
+      "TEFL Practicum Certificate",
+      "TEFL Teaching English Online Certificate",
+      "TEFL Teaching English for Specific Purposes (ESP) Certificate"
+    ]
+  },
+  {
+    "organization_name": "TESOL International Association",
+    "name": [
+      "TESOL Core Certificate Program (TCCP)",
+      "TESOL Certificate: Developing an Online Teaching Program",
+      "TESOL Certificate: Advanced Practitioner",
+      "TESOL Certificate: Teaching English as a Foreign Language (TEFL)",
+      "TESOL Certificate: Leadership Development",
+      "TESOL Certificate: Teaching Young Learners",
+      "TESOL Certificate: Teaching Adult Learners",
+      "TESOL Certificate: Teaching with Technology",
+      "TESOL Certificate: Classroom Management",
+      "TESOL Certificate: Language Assessment"
+    ]
+  },
+  {
+    "organization_name": "TIA (Telecommunications Industry Association)",
+    "name": [
+      "TIA Certified Converged Network Technologies Professional",
+      "TIA Certified Telecommunications Network Specialist",
+      "TIA Certified Telecommunications Project Manager"
+    ]
+  },
+  {
+    "organization_name": "TestDaF Institute",
+    "name": [
+      "TestDaF (Test Deutsch als Fremdsprache)",
+      "TestAS (Test für Ausländische Studierende)",
+      "onSET (Online Language Placement Test)"
+    ]
+  },
+  {
+    "organization_name": "The Open Group",
+    "name": [
+      "TOGAF (The Open Group Architecture Framework)",
+      "ArchiMate Certification",
+      "IT4IT Certification",
+      "Open FAIR Certification",
+      "Open Agile Architecture Practitioner Certification"
+    ]
+  },
+  {
+    "organization_name": "Trend Micro",
+    "name": [
+      "Certified Professional for OfficeScan",
+      "Certified Professional for Deep Security",
+      "Certified Professional for TippingPoint"
+    ]
+  },
+  {
+    "organization_name": "UX Design Institute",
+    "name": [
+      "Professional Diploma in UX Design"
+    ]
+  },
+  {
+    "organization_name": "UXQB (International Usability and UX Qualification Board)",
+    "name": [
+      "CPUX-F (Certified Professional for Usability and User Experience - Foundation Level)",
+      "CPUX-UR (Certified Professional for Usability and User Experience - User Requirements Engineering)",
+      "CPUX-UT (Certified Professional for Usability and User Experience - Usability Testing)"
+    ]
+  },
+  {
+    "organization_name": "Udacity",
+    "name": [
+      "UX Designer Nanodegree",
+      "UI Designer Nanodegree"
+    ]
+  },
+  {
+    "organization_name": "UiPath",
+    "name": [
+      "UiPath RPA Associate",
+      "UiPath Advanced RPA Developer",
+      "UiPath Business Analyst",
+      "UiPath RPA Solution Architect"
+    ]
+  },
+  {
+    "organization_name": "VMware",
+    "name": [
+      "VMware Certified Professional – Application Modernization (VCP-AM)",
+      "VMware Certified Professional – Cloud Management and Automation (VCP-CMA)",
+      "VMware Certified Professional – Digital Workspace (VCP-DW)",
+      "VMware Certified Advanced Professional – Cloud Management and Automation Design (VCAP-CMA Design)",
+      "VCP-NV (VMware Certified Professional - Network Virtualization)",
+      "VCAP-NV (VMware Certified Advanced Professional - Network Virtualization)",
+      "VCDX-NV (VMware Certified Design Expert - Network Virtualization)"
+    ]
+  },
+  {
+    "organization_name": "WorkFusion",
+    "name": [
+      "WorkFusion RPA Developer Certification",
+      "WorkFusion Intelligent Automation Cloud Business Analyst Certification",
+      "WorkFusion Intelligent Automation Cloud Developer Certification"
+    ]
+  },
+  {
+    "organization_name": "Wound, Ostomy, and Continence Nursing Certification Board (WOCNCB)",
+    "name": [
+      "CWOCN (Certified Wound, Ostomy, and Continence Nurse)",
+      "CWCN (Certified Wound Care Nurse)",
+      "COCN (Certified Ostomy Care Nurse)",
+      "CCCN (Certified Continence Care Nurse)"
+    ]
+  }
+]
