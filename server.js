@@ -221,6 +221,36 @@ app.get('/api/languagesar', (req, res) => {
   res.json(results.slice(0, 1000));
 });
 
+
+
+//GET /api/world-countries
+
+const worldData = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "data", "countries+cities.json"), "utf8")
+);
+
+app.get("/api/world-countries", (req, res) => {
+  const countries = worldData.map((entry) => entry.country);
+  res.json(countries);
+});
+
+//GET /api/cities?country=CountryName
+
+app.get("/api/cities", (req, res) => {
+  const { country } = req.query;
+  if (!country) {
+    return res.status(400).json({ error: "Missing country query param" });
+  }
+
+  const match = worldData.find((entry) => entry.country.toLowerCase() === country.toLowerCase());
+  if (!match) {
+    return res.status(404).json({ error: "Country not found" });
+  }
+
+  res.json(match.cities);
+});
+
+
 // Load organization + certifications JSON
 const certificationsData = JSON.parse(
   fs.readFileSync(path.join(__dirname, "organization_certifications.json"), "utf8")
