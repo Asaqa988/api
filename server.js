@@ -237,6 +237,21 @@ app.get("/api/bachelor", (req, res) => {
 });
 
 
+// master 
+
+const masters = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "data", "major-masters.json"), "utf-8")
+);
+
+app.get("/api/masters", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const results = masters
+    .filter((major) => major.toLowerCase().includes(query))
+    .slice(0, 1000);
+  res.json(results);
+});
+
+
 
 //GET /api/world-countries
 
