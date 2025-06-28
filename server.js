@@ -222,6 +222,21 @@ app.get('/api/languagesar', (req, res) => {
 });
 
 
+//bachelor 
+
+const majors = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "data", "majors-Bachelor.json"), "utf-8")
+);
+
+app.get("/api/bachelor", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const results = majors
+    .filter((major) => major.toLowerCase().includes(query))
+    .slice(0, 1000);
+  res.json(results);
+});
+
+
 
 //GET /api/world-countries
 
