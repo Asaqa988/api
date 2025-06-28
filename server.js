@@ -251,6 +251,19 @@ app.get("/api/masters", (req, res) => {
   res.json(results);
 });
 
+// doctors
+const doctors = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "data", "major-doctor.json"), "utf-8")
+);
+
+app.get("/api/doctors", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const results = doctors
+    .filter((major) => major.toLowerCase().includes(query))
+    .slice(0, 1000);
+  res.json(results);
+});
+
 
 
 //GET /api/world-countries
