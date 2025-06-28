@@ -226,11 +226,11 @@ app.get('/api/languagesar', (req, res) => {
 //GET /api/world-countries
 
 const worldData = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "data", "countries+cities.json"), "utf8")
+  fs.readFileSync(path.join(__dirname, "data", "countries_cities.json"), "utf8")
 );
 
 app.get("/api/world-countries", (req, res) => {
-  const countries = worldData.map((entry) => entry.country);
+  const countries = worldData.map((entry) => entry.name); // ✅ correct key
   res.json(countries);
 });
 
@@ -242,7 +242,7 @@ app.get("/api/cities", (req, res) => {
     return res.status(400).json({ error: "Missing country query param" });
   }
 
-  const match = worldData.find((entry) => entry.country.toLowerCase() === country.toLowerCase());
+  const match = worldData.find((entry) => entry.name.toLowerCase() === country.toLowerCase());
   if (!match) {
     return res.status(404).json({ error: "Country not found" });
   }
