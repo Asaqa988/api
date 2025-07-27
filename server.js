@@ -230,9 +230,9 @@ const majors = JSON.parse(
 
 app.get("/api/bachelor", (req, res) => {
   const query = req.query.q?.toLowerCase() || "";
-  const results = majors
-    .filter((major) => major.toLowerCase().includes(query))
-    .slice(0, 1000);
+  const results = [...new Set(
+    majors.filter((major) => major.toLowerCase().includes(query))
+  )].slice(0, 1000);
   res.json(results);
 });
 
@@ -245,11 +245,12 @@ const masters = JSON.parse(
 
 app.get("/api/masters", (req, res) => {
   const query = req.query.q?.toLowerCase() || "";
-  const results = masters
-    .filter((major) => major.toLowerCase().includes(query))
-    .slice(0, 1000);
+  const results = [...new Set(
+    masters.filter((major) => major.toLowerCase().includes(query))
+  )].slice(0, 1000);
   res.json(results);
 });
+
 
 // doctors
 const doctors = JSON.parse(
@@ -258,11 +259,12 @@ const doctors = JSON.parse(
 
 app.get("/api/doctors", (req, res) => {
   const query = req.query.q?.toLowerCase() || "";
-  const results = doctors
-    .filter((major) => major.toLowerCase().includes(query))
-    .slice(0, 1000);
+  const results = [...new Set(
+    doctors.filter((major) => major.toLowerCase().includes(query))
+  )].slice(0, 1000);
   res.json(results);
 });
+
 
 
 
