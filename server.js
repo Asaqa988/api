@@ -171,8 +171,7 @@ app.get("/api/hobbies", (req, res) => {
  */
 app.get("/api/hobbies-ar", (req, res) => {
   const q = req.query.q || "";
-  // Arabic strings but simple lowercasing match is acceptable for substring search
-  res.json(filterListEN(hobbiesAr, q));
+  res.json(filterListAR(hobbiesAr, q));
 });
 
 /**
@@ -194,7 +193,7 @@ app.get("/api/jobtitles", (req, res) => {
 app.get("/api/jobtitlesar", (req, res) => {
   const q = req.query.q || "";
   const titles = Object.values(jobTitlesAr || {});
-  res.json(filterListEN(titles, q));
+  res.json(filterListAR(titles, q));
 });
 
 /**
@@ -219,7 +218,7 @@ app.get("/api/countries", (req, res) => {
 app.get("/api/countriesar", (req, res) => {
   const q = req.query.q || "";
   const results = (countriesAr || [])
-    .filter((c) => containsCI(c.name, q))
+    .filter((c) => norm(c.name).includes(norm(q)))
     .map((c) => ({ code: c.code, name: c.name }))
     .slice(0, MAX_RESULTS);
   res.json(results);
@@ -252,7 +251,7 @@ app.get("/api/universities", (req, res) => {
  */
 app.get("/api/universitiesar", (req, res) => {
   const code = String(req.query.country || "").toUpperCase();
-  const q = req.query.q ? String(req.query.q).toLowerCase() : "";
+  const q = req.query.q ? norm(req.query.q) : "";
 
   if (!code) return sendError(res, 400, "Missing country code");
 
@@ -260,7 +259,7 @@ app.get("/api/universitiesar", (req, res) => {
   if (!country || !country.data) return sendError(res, 404, "Country not found");
 
   let universities = Object.keys(country.data || {});
-  if (q) universities = universities.filter((u) => String(u).toLowerCase().includes(q));
+  if (q) universities = universities.filter((u) => norm(u).includes(q));
 
   res.json(universities.slice(0, MAX_RESULTS));
 });
@@ -284,7 +283,7 @@ app.get("/api/languages", (req, res) => {
 app.get("/api/languagesar", (req, res) => {
   const q = req.query.q || "";
   const values = Object.values(languagesAr || {});
-  res.json(filterListEN(values, q));
+  res.json(filterListAR(values, q));
 });
 
 /**
