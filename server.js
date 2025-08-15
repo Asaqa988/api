@@ -76,6 +76,7 @@ const worldData = JSON.parse(
   fs.readFileSync(path.join(__dirname, "data", "countries_cities.json"), "utf8")
 );
 
+
 // Certifications
 const certificationsData = JSON.parse(
   fs.readFileSync(path.join(__dirname, "organization_certifications.json"), "utf8")
